@@ -8,17 +8,18 @@
 4. 抽卡记录写入文件；
 5. pytest自动化测试
 ## 项目结构
-GachaTester/
 
-  |--gacha/
+    GachaTester
+
+    ├─gacha
   
-  |--core.py         #抽卡核心逻辑
+    │  │  core.py         #抽卡核心逻辑
   
-  |--result.txt      #抽卡基础存储
+    │  │  result.txt      #抽卡基础存储
   
-  |--characters.txt  #卡池与概率配置
+    │  │  characters.txt  #卡池与概率配置
   
-  |--README.md
+    └─README.md
 
 ——————初次上传——————
 
