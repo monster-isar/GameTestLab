@@ -9,11 +9,16 @@
 5. pytest自动化测试
 ## 项目结构
 GachaTester/
-|--gacha/
-|--core.py         #抽卡核心逻辑
-|--result.txt      #抽卡基础存储
-|--characters.txt  #卡池与概率配置
-|--README.md
+
+  |--gacha/
+  
+  |--core.py         #抽卡核心逻辑
+  
+  |--result.txt      #抽卡基础存储
+  
+  |--characters.txt  #卡池与概率配置
+  
+  |--README.md
 
 ——————初次上传——————
 
