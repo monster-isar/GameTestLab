@@ -8,19 +8,27 @@
 4. 抽卡记录写入文件；
 5. pytest自动化测试
 ## 项目结构
-
+```python
     GachaTester
 
     ├─gacha
   
-    │  │  core.py         #抽卡核心逻辑
+    │  │  core.py             #抽卡核心逻辑
   
-    │  │  result.txt      #抽卡结果存储（运行生成）
+    │  │  result.txt          #抽卡结果存储（运行生成）
   
-    │  │  characters.json  #卡池与概率配置
+    │  │  characters.json     #卡池与概率配置
+
+    │  │  __init__.py
+
+    ├─test
+    
+    │  │  test_gacha.py       #抽卡执行函数测试
+    
+    │  conftest.py            #pytest配置文件
   
     └─README.md
-
+```
 ## AI辅助说明
 本项目在开发过程中使用了AI编程工具（如 Cursor）辅助实现，主要用于：
 
